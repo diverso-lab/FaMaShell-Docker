@@ -9,4 +9,6 @@ To run this image:
 
 * docker run -it fama
 
-You can also find the image compiled at dockerhub
+You can also find the image compiled at dockerhub:
+
+* docker pull jagalindo/fama-shell
