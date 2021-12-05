@@ -1,5 +1,5 @@
 FROM openjdk:8
-RUN curl -L https://github.com/FaMaFW/FaMA/releases/download/v1.4.b/FaMa-1.4.beta.zip > fama.zip
+RUN curl -L https://github.com/diverso-lab/FaMA/releases/download/v1.4.b/FaMa-1.4.beta.zip > fama.zip
 RUN mkdir /usr/src/fama
 RUN unzip fama.zip -d /usr/src/fama
 COPY ./FaMaConfig.xml /usr/src/fama/FaMa-1.4.beta/
